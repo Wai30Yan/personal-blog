@@ -6,6 +6,7 @@ description: "All the shortcodes available in Blowfish."
 slug: "blog2"
 tags: ["hugo", "docs"]
 showEdit: false
+showAuthor: true
 ---
 
 

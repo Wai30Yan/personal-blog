@@ -19,7 +19,7 @@ First you create a `struct` object like this:
 ```go {linenos=true}
 type Person struct {
     name string
-    age  int64
+    age  int
 }
 ```
 ### Write the reciever function
@@ -27,9 +27,9 @@ type Person struct {
 Then, you pass the `struct` in a function like this:
 
 ```go {linenos=true}
-func (p *Person) aFunc(age int, name string) {
-    p.age = age
+func (p *Person) addInfo(name string, age int) {
     p.name = name
+    p.age = age
 }
 ```
 
@@ -39,7 +39,14 @@ Then you can call the function using the `struct` as a reciever like this:
 
 ```go
 func main() {
-    p = Person{0, ""}
-    p.aFunc(27, "WaiYan")
+    p = Person{}
+    p.addInfo("Wai Yan", 27)
+
+    // output: {Wai Yan 27}
+    fmt.Println(p)
 }
 ```
+
+### Why use reciever function?
+
+The function can only be called using dot operator with `p` struct which is in a way an object. 

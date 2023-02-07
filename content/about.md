@@ -17,4 +17,12 @@ showLikes : false
 showEdit : false
 ---
 
-This is the About page.
+### Intro
+
+### Education
+
+### Work Experience
+
+### Tech
+
+### Skills

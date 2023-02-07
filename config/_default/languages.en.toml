@@ -15,8 +15,8 @@ dateFormat = "2 January 2006"
 [author]
   name = "Wai Yan"
   image = "img/mdy.jpg"
-  headline = "Welcome to the personal blog of a recently graduated software engineer."
-  bio = "Hello, welcome to the personal blog of a recently graduated software engineer."
+  headline = "Welcome to my portfolio. I'm Wai Yan. A software engineer, major in Cyber Security, who recently graduated. Check out my blogs."
+  bio = "Hope you enjoy the article or learn something new."
   links = [
     { linkedin = "https://www.linkedin.com/in/wai-yan-951b50221/" },
     { instagram = "https://www.instagram.com/wai30yan/" },

@@ -66,9 +66,9 @@ smartTOCHideUnfocusedChildren = true
   showTableOfContents = true
   showTaxonomies = true 
   showAuthorsBadges = true 
-  showWordCount = false
+  showWordCount = true
   showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email"]
+  # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email"]
 
 [list]
   showHero = true
@@ -94,8 +94,8 @@ smartTOCHideUnfocusedChildren = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
   cardView = false
 

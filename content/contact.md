@@ -18,3 +18,5 @@ showEdit : false
 ---
 
 This is the Contact page.
+
+{{< icon "github" >}} - 
