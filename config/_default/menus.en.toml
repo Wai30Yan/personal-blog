@@ -12,8 +12,18 @@
 
 [[main]]
   name = "Blogs"
-  pageRef = "docs"
+  pageRef = "blogs"
   weight = 10
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 30
 
 # [[main]]
 #   name = "Examples"
@@ -36,16 +46,6 @@
 #   parent = "Examples"
 #   pageRef = "examples"
 #   weight = 30
-
-[[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 40
-
-[[main]]
-  name = "Contact"
-  pageRef = "contact"
-  weight = 50
 
 # [[main]]
 #   name = "Merch"
@@ -86,6 +86,6 @@
    weight = 10
 
  [[footer]]
-   name = "Authors"
-   pageRef = "authors"
+   name = "Author"
+   pageRef = "about"
    weight = 20

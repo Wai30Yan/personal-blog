@@ -12,6 +12,9 @@ showTaxonomies : false
 showWordCount : false
 showSummary : false
 sharingLinks : false
+showViews : false
+showLikes : false
+showEdit : false
 ---
 
 This is the Contact page.
