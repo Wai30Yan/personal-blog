@@ -57,23 +57,23 @@
 #  pageRef = "pagTest"
 #  weight = 1000
 
-[[main]]
-  identifier = "twitter"
-  pre = "twitter"
-  url = "https://twitter.com/burufugu"
-  weight = 60
+# [[main]]
+#   identifier = "twitter"
+#   pre = "twitter"
+#   url = "https://twitter.com/burufugu"
+#   weight = 60
 
-[[main]]
-  identifier = "mastodon"
-  pre = "mastodon"
-  url = "https://masto.ai/@blowfish"
-  weight = 70
+# [[main]]
+#   identifier = "mastodon"
+#   pre = "mastodon"
+#   url = "https://masto.ai/@blowfish"
+#   weight = 70
 
-[[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
-  weight = 80
+# [[main]]
+#   identifier = "github"
+#   pre = "github"
+#   url = "https://github.com/nunocoracao/blowfish"
+#   weight = 80
 
 
 # -- Footer Menu --

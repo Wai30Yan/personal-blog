@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Blogs on WaiYan</title>
+    <link>https://Wai30Yan.github.io/personal-blog/blogs/</link>
+    <description>Recent content in Personal Blogs on WaiYan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Wai30Yan.github.io/personal-blog/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concurrency with Goroutines</title>
+      <link>https://Wai30Yan.github.io/personal-blog/blogs/concurrency/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Wai30Yan.github.io/personal-blog/blogs/concurrency/</guid>
+      <description>Go routines are very useful when you want the program to run fast. However, do not mistake concurrency with parallelism.
+To create a goroutine, simple use go keyword
+1 2 3 4 5 func aFunc() { fmt.</description>
+    </item>
+    
+    <item>
+      <title>Reciever function in Go</title>
+      <link>https://Wai30Yan.github.io/personal-blog/blogs/reciever-func/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Wai30Yan.github.io/personal-blog/blogs/reciever-func/</guid>
+      <description>Object Oriented Programming is a little different in Go. Instead of class, Go has struct which is like an object.
+Create a struct&gt; Create a struct First you create a struct object like this:</description>
+    </item>
+    
+    <item>
+      <title>My First Blog</title>
+      <link>https://Wai30Yan.github.io/personal-blog/blogs/blog/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Wai30Yan.github.io/personal-blog/blogs/blog/</guid>
+      <description>This is fun and quite easy to use. I love it.</description>
+    </item>
+    
+    <item>
+      <title>My Second Blog</title>
+      <link>https://Wai30Yan.github.io/personal-blog/blogs/blog2/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Wai30Yan.github.io/personal-blog/blogs/blog2/</guid>
+      <description>I am learning more and more to build my personal blog.</description>
+    </item>
+    
+  </channel>
+</rss>

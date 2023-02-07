@@ -3,7 +3,7 @@ title: "My First Blog"
 date: 2023-02-05
 draft: false
 description: "All the shortcodes available in Blowfish."
-slug: "shortcodes"
+slug: "blog"
 tags: ["hugo", "docs"]
 showEdit: false
 ---
