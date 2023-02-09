@@ -5,7 +5,7 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-# title = "Wai Yan"
+title = "Portfolio"
 logo = "img/wyse.png"
 description = "Hello and welcome to the personal blog of a recently graduated software engineer."
 # copyright = "Copy, _right?_ :thinking_face:"
