@@ -17,8 +17,6 @@ showLikes : false
 showEdit : false
 ---
 
-This is the Contact page.
-
 | Name  | Wai Yan          |
 |------ | ----------       |
 | Phone | +61-449-744-269  |
