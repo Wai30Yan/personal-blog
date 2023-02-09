@@ -14,7 +14,7 @@ Ever wonder whenever photos of criminals were shared, FBI arrested them the very
 
 ### How do you read metadata?
 
-If you are a linux user. It is quite easy. All you need is a tool call `libimage-exiftool-perl`. If you don't have it on your machaine, you can install it by
+If you are a linux user. It is quite easy. If you aren't it's ok. I mentioned a website that is free and easy to do extract metadata. For Linux users, all you need is a tool call `libimage-exiftool-perl`. If you don't have it on your machaine, you can install it by
 
 ```go
 $ sudo apt install libimage-exiftool-perl
@@ -32,7 +32,7 @@ $ exiftool {name of the file}
     src="terminal.png"
     alt="terminal"
     default=true
-    caption="Notice the current directory is \'Desktop/WaiYan\'"
+    caption="Notice the command was executed in the folder where the photo is stored"
     >}}
 
 ### The output of the `exiftool` command
@@ -58,6 +58,24 @@ At the very end, you will see the GPS location in longitude and latitude. If you
 ### What if I don't use Linux? Is there another way to read metadata?
 
 If you don't use Linux, there are some websites that can do the same thing for free. There is one call [Jimple](https://jimpl.com/). It is very simple to use (drag and drop) and it even shows the location in Google Maps so you don't even have to convert the GPS location to decimal form :wink:.
+
+I used the same photo `putao.jpg` on `Jimpl` website. The result are:
+
+{{< figure
+    src="jimpl1.png"
+    alt="jimpl1"
+    default=true
+    >}}
+
+It also show the location in Google Maps as I mentioned before. The map is pinning at the Northern tip of Myanmar in Kachin State. Very convenient. 
+
+My friend took that photo in the middle of a jungle. Our phones did not have access to mobile internet or Wifi. And yet, the metadata has the correct coordinates. It's amazing how technology can track us :scream:!
+
+{{< figure
+    src="jimple2.png"
+    alt="jimple2"
+    default=true
+    >}}
 
 ### The photo I used for the example
 
