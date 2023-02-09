@@ -1,13 +1,13 @@
 ---
-title: "Reciever function in Go"
+title: "Struct method aka Reciever function in Go"
 date: 2023-02-07
 draft: false
 description: "All the shortcodes available in Blowfish."
-slug: "reciever-func"
-tags: ["golang", "reciever-func"]
+slug: "struct-method"
+tags: ["golang", "reciever-func", "struct-method"]
 showEdit: false
 showAuthor: true
-showHeadingAnchors: false
+showHero: false
 ---
 
 Object Oriented Programming is a little different in Go. Instead of `class`, Go has `struct` which is like an object.
@@ -22,7 +22,7 @@ type Person struct {
     age  int
 }
 ```
-### Write the reciever function
+### Declaring struct method
 
 Then, you pass the `struct` in a function like this:
 
@@ -33,17 +33,16 @@ func (p *Person) addInfo(name string, age int) {
 }
 ```
 
-### Finally, calling the reciever func using the struct
+### Finally, calling the method using the struct
 
 Then you can call the function using the `struct` as a reciever like this:
 
 ```go
 func main() {
-    p = Person{}
-    p.addInfo("Wai Yan", 27)
-
-    // output: {Wai Yan 27}
-    fmt.Println(p)
+    p = Person{}    
+    fmt.Println(p) // output: { 0}
+    p.addInfo("Wai Yan", 27)    
+    fmt.Println(p) // output: {Wai Yan 27}
 }
 ```
 

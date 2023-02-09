@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Contact (Work in progress)"
 description: "Posting interesting and fun articles about programming, software and cyber security topics."
 
 showDate : false
