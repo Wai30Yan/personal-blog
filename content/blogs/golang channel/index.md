@@ -4,7 +4,7 @@ date: 2023-02-07
 draft: false
 description: "All the shortcodes available in Blowfish."
 slug: "concurrency"
-tags: ["golang", "go-routines", "concurrency"]
+tags: ["go", "go-routines", "concurrency"]
 showEdit: false
 showAuthor: true
 ---

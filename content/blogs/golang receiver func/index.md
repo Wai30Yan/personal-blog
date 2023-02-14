@@ -4,7 +4,7 @@ date: 2023-02-07
 draft: false
 description: "All the shortcodes available in Blowfish."
 slug: "struct-method"
-tags: ["golang", "reciever-func", "struct-method"]
+tags: ["go", "reciever-func", "struct-method"]
 showEdit: false
 showAuthor: true
 showHero: false

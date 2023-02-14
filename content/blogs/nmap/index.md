@@ -13,10 +13,10 @@ When it comes to hacking, knowledge is power. That is why gathering information 
 {{< /lead >}}
 
 ### What is NMAP?
-`nmap`, short for "Network Mapper" is a go to tool for this activity. It scans the ports that are used in target system and checks the services running on those ports. You can use it to scan the machines in the same network or even web application which are hosted far from you. The only thing you need to know is the `IP address` of the targets.
+`nmap`, short for "Network Mapper" is a go to tool for reconessance. It scans the ports that are used in target system and checks the services running on those ports. You can use it to scan the machines in the same network or even web application which are hosted far from you. The only thing you need to know is the `IP address` of the targets. Targets with poorly implemented security will reveal 
 
 ### Ports and Services
-Every servers or computers have total of 65535 ports. The first 1024 ports are reserved for system. If you are familiar with web application development, notice the server runs on port `:8080` and client on `:3000`. 
+Every servers or computers have total of 65535 ports. The first 1024 ports are reserved for system. If you are familiar with web application development, notice the server runs on port `:8080` and client on `:3000`, not between 1-1024. 
 
 Most used ports numbers and services:
 
