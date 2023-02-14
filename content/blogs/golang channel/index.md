@@ -7,6 +7,7 @@ slug: "concurrency"
 tags: ["go", "go-routines", "concurrency"]
 showEdit: false
 showAuthor: true
+showHero: false
 ---
 
 Go routines are very useful when you want the program to run fast. However, do not mistake concurrency with parallelism.
