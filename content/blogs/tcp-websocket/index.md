@@ -10,7 +10,7 @@ showAuthor: true
 showHero: false
 ---
 {{< lead >}}
-Websockets are very useful to have when you want real time communication. There are different types of websockets, TCP, UDP and UNIX. In this tutorial, we will go through a basic TCP websockets, both Client and Server. The client will be able to send text to the server (like a messaging app) and the server responses with an integer. Then, to spice things up, we will use concurrency so that the server can handle multiple socket connections from multiple clients.
+Websockets are very useful to have when you want real time communication like messaging app or an online game server. There are different types of websockets, TCP, UDP and UNIX. In this tutorial, we will go through a basic TCP websockets, both Client and Server. 
 {{< /lead >}}
 
 ## Currently, it's only code. Explaination will be added soon.
@@ -44,16 +44,22 @@ func main() {
 }
 ```
 
+I'm using command-line arguement for PORT number. But you can declare and assign a value in the code if you want. When you run the `go` file, you use the command `go run main.go`. `main.go` is the first arguement with `index 0`. Just include the port number at the end like this: `go run main.go 1234`. 
+
+This code is `listener, err := net.Listen("tcp", PORT)` is responsible for declaring a listener. The listener waits for incoming connections from clients. It is part of `net` package from standard library. The `Listen` func accept two parameters, `protocol` and `port number`.
+
+In the example, I used "tcp". There are other options like "udp" and "unix".
+
 ### Accepting incoming TCP connections
+To establish the communication, the listener needs to accept the incoming connection. The `listener.Accept()` returns `net.Conn` which represents a connection and an error. The `conn` object can then be used for reading and writing data.
 
 ```go
-for {
-    conn, err := listener.Accept()
-    if err != nil {
-        fmt.Println(err)
-        return
-    }
+conn, err := listener.Accept()
+if err != nil {
+    fmt.Println(err)
+    return
 }
+
 ```
 
 ### Reading incoming texts
