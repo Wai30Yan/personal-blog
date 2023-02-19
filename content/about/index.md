@@ -17,6 +17,10 @@ showLikes : false
 showEdit : false
 ---
 
+{{< lead >}}
+[Link to My Old Portfolio](https://wai30yan.github.io/react_portfolio/)
+{{</ lead >}}
+
 ### Intro
 Hi, thank you for checking out my website. I'm a software engineer graduated from the University of Technology Sydney. I major in Cyber Security where I had a chance to learn about Web-penetration, SQL injection, Session Hijacking and so on. I have experience in developing Web Applications with React & Express. 
 ### Education
