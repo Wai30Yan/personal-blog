@@ -1,5 +1,5 @@
 ---
-title: "(In Progress) Practicing Go with Struct, Json, API and Templates"
+title: "Practicing Go with Struct, Json, API and Templates"
 date: 2023-02-23
 draft: false
 description: "All the shortcodes available in Blowfish."
@@ -62,6 +62,10 @@ func getJokes() Joke {
 }
 ```
 
+To get the json data, we declare a `Joke` variable. Then, create a NewDecoder object using `response.Body`. The NewDecoder object has a `Decode()` function that takes address to the `Joke` variable to compare JSON keys and extract values.
+
+The output is a Go struct with curly brackets. It does not show JSON field name. We'll use template packages later to format the output. 
+
 ### Calling the `getJokes()` in main()
 To fetch 10 jokes, let's call the function in a forLoop. And append each joke into jokes slice.
 
@@ -85,6 +89,7 @@ __*IMPORTANT*__ make sure the spelling is correct.
 
 
 #### Text template
+The `{{range .}}` in the first line and `{{end}}` in the last line of code is simply a forLoop to iterate through all the fields of `Joke struct`. The dot represents a `Joke struct`.
 ```go
 var templ = `{{range .}}-------------------------
 Category: {{.Category}}
