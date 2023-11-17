@@ -14,8 +14,8 @@ dateFormat = "2 January 2006"
 
 [author]
   name = "Wai Yan"
-  image = "img/waiyan.jpg"
-  headline = "Welcome to my portfolio. I'm Wai Yan. A software engineer, major in Cyber Security, who recently graduated. Check out my blogs."
+  image = "img/me.jpg"
+  headline = "Recent graduate with a Bachelor's in Software Engineering majoring in Cyber Security from the University of Technology Sydney. Holder of the OSCP certificate, I specialize in TypeScript, Java, Web Application Development, and Penetration Testing, aiming to innovate and secure the digital landscape."
   bio = "Hope you enjoy the article or learn something new."
   links = [
     { linkedin = "https://www.linkedin.com/in/wai-yan-951b50221/" },
