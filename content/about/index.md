@@ -1,5 +1,5 @@
 ---
-title: "About Me (Work in progress)"
+title: "About Me"
 description: "Posting interesting and fun articles about programming, software and cyber security topics."
 
 showDate : false
@@ -18,11 +18,11 @@ showEdit : false
 ---
 
 {{< lead >}}
+A programmer with passion for digital technology and ethical hacking recently graduated with the **Bachelor of Software Engineering (Honor)** at the **University of Technology Sydney**, majoring in Cyber Security and recently achieved the **Offensive Security Certified Professional** certificate. I consider even challenge as a chance to learn new things.
+ 
 [Link to My Old Portfolio](https://wai30yan.github.io/react_portfolio/)
 {{</ lead >}}
 
-### Intro
-Hi, thank you for checking out my website. I'm a software engineer graduated from the University of Technology Sydney. I major in Cyber Security where I had a chance to learn about Web-penetration, SQL injection, Session Hijacking and so on. I have experience in developing Web Applications with React & Express. 
 ### Education
 * Cambridge A Level - Taylor's College - 2012-2013
 * Bachelor's of Medicine - Internataional Medical University - 2015-2016 (drop out)
@@ -36,19 +36,14 @@ Worked on DICOM Image Viewer using ReactJS.
 #### Software Engineer at Canditute Jun-Oct 2022
 Web Application development using NextJS. Advanced querying with MongoDB.
 
-### Tech-Stacks
-* React/NextJS
-* MaterialUI, Tailwind, ChakraUI
-* Redux
-* Node/ExpressJS
-* Flutter
 
 ### Programming Languages
+* Java
+* TypeScript
 * Go
-* JavaScript
 * C++
 
 ### Skills
 * Web Application Development
+* Penetration Testing
 * Programming
-* UI/UX
