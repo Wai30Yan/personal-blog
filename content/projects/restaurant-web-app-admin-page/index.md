@@ -3,7 +3,7 @@ title: "Admin Page for the Restaurant Web App with Next.js and Spring Boot"
 date: 2023-11-17
 draft: false
 description: "All the shortcodes available in Blowfish."
-slug: "fullstack-web-app"
+slug: "admin-dashboard-restaurant"
 tags: ["next-js", "spring-boot-3", "spring-security-6", "google-cloud"]
 showEdit: false
 showAuthor: true
