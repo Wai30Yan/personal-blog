@@ -32,7 +32,7 @@ The user can only click **Process** if the URL is valid (a mistake I learned fro
 
 ![Alt text](image.png)
 
-Removed the domain name from the URL.
+Removed the domain name to test with invalid URL.
 ![Alt text](invalid-url.png)
 
 With valid URL and correct mode, the backend will send the response.
