@@ -14,6 +14,7 @@ This article will focus on what the admin users can do on the Restaurant Web App
 
 username - **bruce** <br>
 password - **iambatman**
+{{</ lead >}}
 
 * [Demo](https://restaurant-web-app-frontend.vercel.app/admin/dashboard) 
 * [Code for NextJS](https://github.com/Wai30Yan/restaurant-web-app-frontend)

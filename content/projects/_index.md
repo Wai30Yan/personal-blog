@@ -1,6 +1,6 @@
 ---
-title: "Personal Blogs"
-description: "Posting interesting and fun articles about programming, software and cyber security topics."
+title: "Projects"
+description: "Showcasing the projects I have built to try out new technologies and frameworks during my learning journey."
 
 cascade:
   showDate: true
@@ -11,7 +11,7 @@ cascade:
 ---
 
 {{< lead >}}
-Showcasing the projects I have built to try out new technologies and frameworks during my learning journey.
+Explore a collection of my latest endeavors and passion projects. From coding adventures to creative experiments, this is a showcase of my hands-on experience and the outcomes of my curiosity. Dive into the world of my personal projects and discover the skills, technologies, and stories behind each one.
 {{< /lead >}}
 
 ---

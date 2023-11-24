@@ -12,10 +12,10 @@ showAuthor: true
 {{< lead >}}
 Embarking on a journey through the digital culinary landscape, I present to you a showcase of innovation and flavor—my Next.js restaurant web app. This project seamlessly marries the frontend prowess of Next.js with TypeScript, orchestrating a delightful dance of flavors complemented by the robust backend duo of Java 17, Spring Boot 3 and Spring Security 6, all orchestrated by MongoDB.
 
+{{</ lead >}}
 * [Demo](https://restaurant-web-app-frontend.vercel.app) 
 * [Code for NextJS](https://github.com/Wai30Yan/restaurant-web-app-frontend)
 * [Code for Spring Boot](https://github.com/Wai30Yan/restaurant-web-app-backend)
-
 ### Two Worlds, One App: Guest and Admin
 As the heart of this gastronomic voyage, our web app accommodates two distinct realms—the guest and the admin. While guests savor the immersive dining experience, administrators wield the power to curate the culinary offerings.
 
